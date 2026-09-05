@@ -1,0 +1,55 @@
+* {
+    background-color: black;
+    color: azure;
+    min-height: 100%;
+    scrollbar-width: thin;
+    scrollbar-gutter: inherit;
+    scroll-margin: unset;
+}
+
+::selection {
+    background-color: rgb(210, 215, 146);
+}
+
+#text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#p-text {
+    display: flex;
+    justify-content: space-around;
+    background-color: rgb(3, 29, 15);
+    padding: 2%;
+    font-size: large;
+    font-style: italic;
+}
+
+#iframe {
+    border-radius: 10px;
+}
+
+#ifr-div {
+    background-color: rgb(113, 4, 4);
+    padding: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#contents {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: center;
+}
+
+#cont-text{
+    font-family: fantasy;
+    font-size: 100px;
+}
+
+#contents p{
+    font-size: xx-large;
+}
