@@ -14,8 +14,38 @@
       <iframe
         src="https://www.youtube.com/embed/z4QMrqQhv34?si=l0DdjLxxH4UtgAJ-"
         frameborder="0"
+        allow="
+          accelerometer;
+          autoplay;
+          clipboard-write;
+          encrypted-media;
+          gyroscope;
+          picture-in-picture;
+          web-share;
+        "
+        referrerpolicy="strict-origin-when-cross-origin"
+        allowfullscreen
         width="560"
         height="315"
+        id="iframe"
+      ></iframe>
+      <iframe
+        width="560"
+        height="315"
+        src="https://www.youtube.com/embed/o-8amaZBi5M?si=2n90W1RmXuTt9gFH"
+        title="YouTube video player"
+        frameborder="0"
+        allow="
+          accelerometer;
+          autoplay;
+          clipboard-write;
+          encrypted-media;
+          gyroscope;
+          picture-in-picture;
+          web-share;
+        "
+        referrerpolicy="strict-origin-when-cross-origin"
+        allowfullscreen
         id="iframe"
       ></iframe>
     </div>
@@ -32,18 +62,21 @@
     <div id="contents">
       <div>
         <h1 id="cont-text">Images</h1>
-        <img
-          src="/images/new.jpg"
-          alt="A picture of me now"
-          width="400"
-          height="400"
-        />
-        <img
-          src="/images/old.jpg"
-          alt="A supposed picture of me as a baby"
-          width="400"
-          height="400"
-        />
+        <div id="img">
+          <img
+            src="/images/new.jpg"
+            alt="A picture of me now"
+            width="300"
+            height="300"
+          />
+          <img
+            src="/images/old.jpg"
+            alt="A supposed picture of me as a baby"
+            width="300"
+            height="300"
+          />
+        </div>
+
         <p>
           This contains images meant to give a little description about the
           topics being referred to such as solutions or a information that might
@@ -59,7 +92,13 @@
     <div id="contents">
       <div>
         <h1 id="cont-text">Articles</h1>
-        <p>Will Work well</p>
+        <iframe
+          src="https://www.meetorchard.org/orchard-blog/decades-of-service/"
+          frameborder="0"
+          width="600"
+          height="600"
+          id="blog"
+        ></iframe>
       </div>
     </div>
 

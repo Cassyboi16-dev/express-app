@@ -28,6 +28,7 @@
 
 #iframe {
     border-radius: 10px;
+    width: 50%;
 }
 
 #ifr-div {
@@ -36,6 +37,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    gap: 8px;
 }
 
 #contents {
@@ -52,4 +54,30 @@
 
 #contents p{
     font-size: xx-large;
+}
+
+#img{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+    background-color: crimson;
+    padding: 20px;
+}
+
+img{
+    display: flex;
+    border-radius: 2rem;
+    justify-content: space-between;
+}
+
+.code{
+    background-color: #fff;
+    border-radius: 20px;
+    color: #fff;
+}
+
+#blog{
+    border: none;
+    border-radius: 15px;
 }
